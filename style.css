@@ -8,23 +8,15 @@ body {
 
 img {
     max-width: 100%;
-    display: block; 
-    margin: 0 auto;
 }
 
 p {
-    text-align: center;
-    text-indent: 0;
-    line-height: 1.6;
+    text-indent: 10px;
 }
 
 .row {
     width: 100%;
     margin-left: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
 }
 
 .col {
@@ -40,25 +32,4 @@ p {
     display: none !important;
 }
 
-h1 {
-    text-align: center;
-    font-size: 2.5rem;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    color: black;
-}
 
-.navbar {
-    background-color: #f8f9fa;
-    border-bottom: 2px solid black;
-}
-
-.navbar-brand {
-    color: black;
-    font-size: 1.5rem;
-}
-
-#text {
-    text-align: center;
-    padding: 20px;
-}
